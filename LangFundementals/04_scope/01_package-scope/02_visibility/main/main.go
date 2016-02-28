@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println(vis.MyName)
+	fmt.Println(vis.MyName) //which is fine since variable name is capital thus exported
 	vis.PrintVar()
 }
