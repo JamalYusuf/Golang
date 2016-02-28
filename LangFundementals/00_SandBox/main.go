@@ -1,11 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
+const (
+	a = iota
+	b
+	c
+)
 
 func main() {
-	for i := 60; i < 122; i++ {
-	}
-	for loopcounter:= 1; loopcounter < 99; loopcounter++{
-		fmt.Printf("Hello the number is %x \n", loopcounter)
-	}
+
+	fmt.Println(a, b, c)
+
 }
