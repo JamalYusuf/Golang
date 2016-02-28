@@ -15,12 +15,15 @@ func main() {
 
 	variable5 := 'M' //this is a variable that is a character
 
+	var a, b, c int = 1, 2, 3 //declare and initialize multiple variables
+
 	fmt.Println(variable1, variable2, variable3, variable4)
 
 	//finding the tye of a variable
 
 	fmt.Printf("%v %v %v %v %v \n", variable1, variable2, variable3, variable4, variable5) //print them all out
 	fmt.Printf("%T %T %T %T %T \n", variable1, variable2, variable3, variable4, variable5) //prints their types out
+	fmt.Printf("%d %d %d \n", a, b, c)                                                     //prints ints for a,b,c
 }
 
 /*
